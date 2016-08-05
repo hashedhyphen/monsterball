@@ -6,7 +6,7 @@ import sys
 from core import detect
 from util import draw_balls
 
-cam = cv2.VideoCapture(1)
+cam = cv2.VideoCapture(0)
 if not cam.isOpened():
     sys.exit("Couldn't open the default camera!")
 
